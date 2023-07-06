@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound.jsx';
 function App() {
   return (
     <>
-      <Routes>
+      <Routes basename='/'>
         <Route path='/'>
           <Route element={<Layout />}>
             <Route index element={<Home />}></Route>
